@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>知网 PDF 入 ima</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header><strong>知网 PDF 入 ima</strong><button id="settings" type="button">设置</button></header>
+  <main>
+    <p class="label">当前文章</p>
+    <p id="article" class="article">正在识别…</p>
+    <label for="library">目标知识库</label>
+    <select id="library" disabled><option>正在加载…</option></select>
+    <label for="folder">存放位置</label>
+    <select id="folder" disabled><option>请先选择知识库</option></select>
+    <button id="upload" type="button" disabled>下载 PDF 并上传</button>
+    <p id="status" role="status">请保持此弹窗打开，直到上传完成。</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

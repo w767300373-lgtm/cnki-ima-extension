@@ -1,0 +1,10 @@
+{
+  "name": "cnki-ima-extension",
+  "private": true,
+  "version": "0.3.0",
+  "description": "Save an authorized CNKI article PDF to Tencent ima",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check": "node --check src/cnki.js && node --check src/pdf.js && node --check src/cnki-request.js && node --check src/transfer.js && node --check src/page-content.js && node --check src/page-download.js && node --check src/ima.js && node --check src/cos.js && node --check src/background.js && node --check src/content.js && node --check popup/popup.js && node --check options/options.js"
+  }
+}

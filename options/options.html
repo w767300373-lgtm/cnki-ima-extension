@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>知网 PDF 入 ima · 设置</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <h1>知网 PDF 入 ima</h1>
+    <p>在 <a href="https://ima.qq.com/agent-interface" target="_blank" rel="noopener">腾讯 ima 官方接口页面</a>获取 Client ID 和 API Key。凭证保存在本机 Edge 扩展存储中。</p>
+    <label for="clientId">Client ID</label>
+    <input id="clientId" autocomplete="off" spellcheck="false">
+    <label for="apiKey">API Key</label>
+    <input id="apiKey" type="password" autocomplete="off" spellcheck="false">
+    <div class="actions"><button id="save" type="button">保存并测试连接</button></div>
+    <p id="result" role="status"></p>
+  </main>
+  <script src="options.js"></script>
+</body>
+</html>

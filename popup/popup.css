@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { width: 330px; margin: 0; font: 14px/1.5 system-ui, 'Microsoft YaHei', sans-serif; color: #18212f; background: #f7f9fc; }
+header { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; background: #fff; border-bottom: 1px solid #e1e7f0; }
+header strong { font-size: 16px; }
+header button { border: 0; background: none; color: #1769aa; cursor: pointer; }
+main { padding: 16px; }
+.label { margin: 0 0 4px; color: #627187; font-size: 12px; }
+.article { min-height: 42px; margin: 0 0 16px; font-weight: 600; }
+label { display: block; margin: 12px 0 6px; }
+select, #upload { width: 100%; min-height: 38px; border-radius: 7px; font: inherit; }
+select { padding: 6px 8px; border: 1px solid #cad4e2; background: #fff; }
+#upload { margin-top: 16px; border: 0; background: #1769aa; color: #fff; font-weight: 600; cursor: pointer; }
+#upload:disabled { background: #a7b5c5; cursor: not-allowed; }
+#status { min-height: 40px; margin: 12px 0 0; color: #4d5e73; font-size: 12px; }
+#status.error { color: #b3261e; }
+#status.success { color: #137333; }
